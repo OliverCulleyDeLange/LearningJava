@@ -6,3 +6,4 @@ nbproject
 *.ipr
 *.iws
 build.xml
+.gradle
