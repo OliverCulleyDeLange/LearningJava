@@ -2,7 +2,7 @@ package uk.co.oliverdelange.designpatterns.factory;
 
 import static uk.co.oliverdelange.basicjava.HelloWorld.print;
 
-public class Client {
+public class FactoryClient {
 
     public static void main(String[] args) {
         PhoneFactory factory = new PhoneFactory();
