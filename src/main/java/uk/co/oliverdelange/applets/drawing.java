@@ -1,9 +1,9 @@
-package main.java.uk.co.oliverdelange.applets;
+package uk.co.oliverdelange.applets;
 
 import java.applet.Applet;
 import java.awt.*;
 // A horribly simple applet that simply draws some coloured lines on a black background...
-public class drawing extends Applet {
+public class Drawing extends Applet {
     int width, height;
     
     @Override

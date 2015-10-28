@@ -1,4 +1,4 @@
-package main.java.uk.co.oliverdelange.basicjava;
+package uk.co.oliverdelange.basicjava;
 
 public class PrimitiveVariables {
 

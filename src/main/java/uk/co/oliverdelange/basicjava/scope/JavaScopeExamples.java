@@ -1,6 +1,6 @@
 package uk.co.oliverdelange.basicjava.scope;
 
-import uk.co.oliverdelange.basicjava.scope2.scopeClassDifferentPackage;
+import uk.co.oliverdelange.basicjava.scope2.ScopeClassDifferentPackage;
 
 import static uk.co.oliverdelange.basicjava.HelloWorld.print;
 
@@ -14,13 +14,13 @@ public class JavaScopeExamples {
         defaultStaticVoid();
 
         // Methods contained in Class within same package as this Class
-        scopeClassSamePackage.publicStaticVoid();
-        scopeClassSamePackage.protectedStaticVoid();
+        ScopeClassSamePackage.publicStaticVoid();
+        ScopeClassSamePackage.protectedStaticVoid();
         //Can't access private methods.
-        scopeClassSamePackage.defaultStaticVoid();
+        ScopeClassSamePackage.defaultStaticVoid();
 
         // Methods contained in a Class within a different Package
-        scopeClassDifferentPackage.publicStaticVoid();
+        ScopeClassDifferentPackage.publicStaticVoid();
         //Can't access protected methods.
         //Can't access private methods.
         //Can't access default methods.
